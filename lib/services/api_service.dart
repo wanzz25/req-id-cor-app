@@ -8,7 +8,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 /// ⚠️ GANTI ini sesuai domain/IP API kamu (api/config.js -> DOMAIN).
 /// Contoh lokal testing (emulator Android) : http://10.0.2.2:2000
 /// Contoh domain production               : https://api.pteronet.my.id
-const String kApiBaseUrl = 'http://private.rexptero.web.id:10420/mobile-api';
+const String kApiBaseUrl = 'https://kicaw.adit.web.id/mobile-api';
 
 class ApiException implements Exception {
   final String message;
